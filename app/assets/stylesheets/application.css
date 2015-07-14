@@ -1,0 +1,133 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Frijole|Special+Elite|Freckle+Face);
+
+/*
+
+font-family: 'Permanent Marker', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Freckle Face', cursive;
+*/
+
+.pageTit{
+  margin-top: vw;
+}
+
+#listName{
+  color: #b6470f;
+  margin-top: -3vw;
+  font-family: 'Freckle Face', cursive;
+  text-shadow: white 2px 1px 1px;
+  font-size: 4vw;
+  opacity: .8;
+
+}
+
+#layer{
+  margin: auto;
+  margin-top: -2vw;
+  padding-top: 0;
+  width: 70%;
+  background-color: #07450c;
+  height: 550px;
+  position: fixed;
+  left: 15%; top: 2%;
+  z-index: -1;
+  opacity: .7;
+}
+
+.cHead{
+  color: #c4c740;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2vw;
+  text-shadow: 1px 2px 2px black;
+}
+
+h1{
+  color: white;
+}
+.tableText{
+  color:white;
+
+}
+table{
+  margin:auto;
+}
+#descript{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 600;
+  opacity: .9;
+  color: #ffffff;
+  font-family: 'Special Elite', cursive;
+  text-shadow: black 1px 2px 1px;
+}
+#timeDue{
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  opacity: .8;
+  color: #ffffff;
+  font-family: 'Special Elite', cursive;
+  text-shadow: black 1px 2px 1px;
+}
+
+#checkbox{
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  opacity: .8;
+  color: #ffffff;
+  font-family: 'Special Elite', cursive;
+  text-shadow: black 1px 2px 1px;
+}
+body{
+  text-align: center;
+  background:url("http://static.wallpedes.com/wallpaper/excellent/excellent-camo-wallpapers-realtree-wallpaper-for-house-iphone-walls-border-ipad-bedroom-home-camo-app.jpg");
+  background-size: 150%;
+  height: 200%;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#geter{
+  font-size: 8vw;
+  font-family: 'Freckle Face', cursive;
+  padding: 4vw;
+  text-shadow: black 2px 4px 2px
+}
+
+#add{
+padding-right: 50vw;
+color: white;
+font-size: 5vw;
+}
+
+
+
+#edits{
+
+
+}
+
+#remove{
+
+
+}

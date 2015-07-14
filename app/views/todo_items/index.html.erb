@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<h1 id="listName">Redneck Todo List</h1>
+
+<!-- <div id="add"><%= link_to '<i class="fa fa-plus-square"></i>', new_todo_item_path %></div> -->
+<div id="add">
+  <%= link_to new_todo_item_path do %>
+    <i class="fa fa-plus-square"></i>
+  <% end %>
+</div>
+<table>
+  <thead>
+    <tr class="cHead">
+      <th>Done did it?</th>
+      <th>What we Doin¿</th>
+      <th>Time is Catfish!</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @todo_items.each do |todo_item| %>
+      <tr class="elements">
+        <td class="tableText" id="checkbox"><%= todo_item.complete %></td>
+        <td class="tableText" id="descript"><%= todo_item.description %></td>
+        <td class="tableText" id="timeDue"><%= todo_item.time %></td>
+        <td id="edits"><%= link_to 'Edit', edit_todo_item_path(todo_item) %>
+        </td>
+
+
+
+        <td id="remove"><%= link_to 'Destroy', todo_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

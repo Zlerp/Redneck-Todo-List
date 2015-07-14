@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  complete: false
+  time: 2015-07-12 23:02:04
+
+two:
+  description: MyString
+  complete: false
+  time: 2015-07-12 23:02:04
